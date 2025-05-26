@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpressPost - Современная почтовая служба</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>ПочтаЭкспресс</span>
+                </a>
+                
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#advantages">Преимущества</a></li>
+                        <li><a href="#partners">Партнеры</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="nav-toggle" id="navToggle">
+                    <span class="nav-toggle__item"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">Инновационные почтовые решения</h1>
+                <p class="intro__subtitle">Быстрая и надежная доставка для бизнеса и частных клиентов</p>
+                <a href="#order" class="btn btn--primary">Оставить заявку</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="section__title">Наши услуги</h2>
+            <p class="section__subtitle">Комплексные почтовые решения для любых задач</p>
+            
+            <div class="services">
+                <div class="services__item">
+                    <div class="services__icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3 class="services__title">Доставка посылок</h3>
+                    <p class="services__text">Быстрая и безопасная доставка по всей стране и за рубеж</p>
+                </div>
+                
+                <div class="services__item">
+                    <div class="services__icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="services__title">Почтовая пересылка</h3>
+                    <p class="services__text">Надежная пересылка документов и корреспонденции</p>
+                </div>
+                
+                <div class="services__item">
+                    <div class="services__icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3 class="services__title">Хранение грузов</h3>
+                    <p class="services__text">Услуги временного хранения на наших складах</p>
+                </div>
+                
+                <div class="services__item">
+                    <div class="services__icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="services__title">Доставка дронами</h3>
+                    <p class="services__text">Инновационная технология доставки в труднодоступные места</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="section section--gray" id="advantages">
+        <div class="container">
+            <h2 class="section__title">Наши преимущества</h2>
+            <p class="section__subtitle">Почему клиенты выбирают нас</p>
+            
+            <div class="advantages"><div class="advantages__item">
+                    <div class="advantages__number">01</div>
+                    <h3 class="advantages__title">Скорость</h3>
+                    <p class="advantages__text">Экспресс-доставка в кратчайшие сроки благодаря оптимизированной логистике</p>
+                </div>
+                
+                <div class="advantages__item">
+                    <div class="advantages__number">02</div>
+                    <h3 class="advantages__title">Надежность</h3>
+                    <p class="advantages__text">99,8% посылок доставляются вовремя без повреждений</p>
+                </div>
+                
+                <div class="advantages__item">
+                    <div class="advantages__number">03</div>
+                    <h3 class="advantages__title">Отслеживание</h3>
+                    <p class="advantages__text">Полный контроль над отправлением через мобильное приложение</p>
+                </div>
+                
+                <div class="advantages__item">
+                    <div class="advantages__number">04</div>
+                    <h3 class="advantages__title">Технологии</h3>
+                    <p class="advantages__text">Используем современные технологии для удобства клиентов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Партнеры -->
+    <section class="section" id="partners">
+        <div class="container">
+            <h2 class="section__title">Наши партнеры</h2>
+            <p class="section__subtitle">Мы сотрудничаем с ведущими компаниями</p>
+            
+            <div class="partners">
+                <div class="partners__item">
+                    <i class="fas fa-globe-europe"></i>
+                    <p>Международные почтовые службы</p>
+                </div>
+                
+                <div class="partners__item">
+                    <i class="fas fa-truck"></i>
+                    <p>Логистические компании</p>
+                </div>
+                
+                <div class="partners__item">
+                    <i class="fas fa-boxes"></i>
+                    <p>Производители упаковки</p>
+                </div>
+                
+                <div class="partners__item">
+                    <i class="fas fa-microchip"></i>
+                    <p>Технологические партнеры</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма заказа -->
+    <section class="section section--order" id="order">
+        <div class="container">
+            <div class="order">
+                <div class="order__info">
+                    <h2 class="order__title">Готовы отправить посылку?</h2>
+                    <p class="order__text">Оставьте заявку и наш менеджер свяжется с вами для уточнения деталей</p>
+                    
+                    <div class="order__contacts">
+                        <div class="order__contacts-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+7 (123) 456-78-90</span>
+                        </div>
+                        <div class="order__contacts-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@expresspost.ru</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="form">
+                    <div class="form__group">
+                        <input type="text" class="form__input" placeholder="Ваше имя" required>
+                    </div>
+                    
+                    <div class="form__group">
+                        <input type="tel" class="form__input" placeholder="Телефон" required>
+                    </div>
+                    
+                    <div class="form__group">
+                        <select class="form__select">
+                            <option value="" disabled selected>Выберите услугу</option>
+                            <option value="delivery">Доставка посылок</option><option value="mail">Почтовая пересылка</option>
+                            <option value="storage">Хранение грузов</option>
+                            <option value="drone">Доставка дронами</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn--primary btn--block">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <div class="footer__logo">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>ExpressPost</span>
+                    </div>
+                    <p class="footer__text">Инновационные почтовые решения для бизнеса и частных клиентов</p>
+                    
+                    <div class="social">
+                        <a href="#" class="social__item">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="#" class="social__item">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social__item">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <address class="footer__address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        г. Москва, ул. Почтовый бульвар, 15
+                    </address>
+                    <a href="tel:+71234567890" class="footer__contact">
+                        <i class="fas fa-phone"></i>
+                        +7 (123) 456-78-90
+                    </a>
+                    <a href="mailto:info@expresspost.ru" class="footer__contact">
+                        <i class="fas fa-envelope"></i>
+                        info@expresspost.ru
+                    </a>
+                </div>
+                
+                <div class="footer__col">
+                    <h3 class="footer__title">Режим работы</h3>
+                    <p class="footer__schedule">
+                        <i class="fas fa-clock"></i>
+                        Пн-Пт: 9:00 - 20:00
+                    </p>
+                    <p class="footer__schedule">
+                        <i class="fas fa-clock"></i>
+                        Сб-Вс: 10:00 - 18:00
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer__copyright">
+                <p>&copy; 2025 ПочтаЭкспресс. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
