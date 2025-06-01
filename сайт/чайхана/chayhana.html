@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чайхана "Шелковый Путь" | Восточные чаи и угощения</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Marck+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Чайхана <span>"Шелковый Путь"</span></h1>
+                <p>Где каждый глоток - путешествие</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#events">Мероприятия</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h2>Добро пожаловать в настоящую восточную чайхану</h2>
+                <p>Попробуйте более 50 видов чая и восточных угощений в атмосфере древнего Шелкового пути</p>
+                <a href="#reservation" class="btn">Забронировать столик</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Наша философия</h2>
+            <div class="about-grid">
+                <div class="about-item">
+                    <div class="icon">🍃</div>
+                    <h3>Экологичность</h3>
+                    <p>Мы используем только натуральные ингредиенты от проверенных поставщиков</p>
+                </div>
+                <div class="about-item">
+                    <div class="icon">🎵</div>
+                    <h3>Живая музыка</h3>
+                    <p>По вечерам звучат традиционные инструменты Востока</p>
+                </div>
+                <div class="about-item">
+                    <div class="icon">🏺</div>
+                    <h3>Аутентичность</h3>
+                    <p>Все чаи готовятся по старинным рецептам с соблюдением традиций</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Наше меню</h2>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="tea">Чайная карта</button>
+                <button class="tab-btn" data-tab="food">Восточные угощения</button>
+                <button class="tab-btn" data-tab="sets">Чайные сеты</button>
+            </div>
+
+            <div class="menu-content">
+                <div class="tab-content active" id="tea">
+                    <div class="menu-item">
+                        <h3>Зеленые чаи</h3>
+                        <ul>
+                            <li>Лунцзин <span>350 ₽</span></li>
+                            <li>Би Ло Чунь <span>400 ₽</span></li>
+                            <li>Ганпаудер <span>300 ₽</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Черные чаи</h3>
+                        <ul>
+                            <li>Дянь Хун <span>450 ₽</span></li>
+                            <li>Кимун <span>380 ₽</span></li>
+                            <li>Ассам <span>350 ₽</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Улуны</h3>
+                        <ul>
+                            <li>Те Гуань Инь <span>500 ₽</span></li>
+                            <li>Да Хун Пао <span>550 ₽</span></li>
+                            <li>Шуй Сянь <span>450 ₽</span></li>
+                        </ul>
+                    </div>
+                </div><div class="tab-content" id="food">
+                    <div class="menu-item">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Мероприятия</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <h3>Чайные мастер-классы</h3>
+                    <p>Каждую среду в 19:00</p>
+                    <p>Научитесь правильно заваривать чай и узнайте его историю</p>
+                </div>
+                <div class="event-card">
+                    <h3>Вечера восточной поэзии</h3>
+                    <p>По пятницам в 20:00</p>
+                    <p>Чтение стихов Омара Хайяма, Руми и других поэтов Востока</p>
+                </div>
+                <div class="event-card">
+                    <h3>Концерты этнической музыки</h3>
+                    <p>По субботам в 21:00</p>
+                    <p>Живое исполнение на дутаре, удде и других инструментах</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2>Забронировать столик</h2>
+            <form id="reservation-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" placeholder="Количество гостей" min="1" required>
+                </div>
+                <div class="form-group">
+                    <input type="datetime-local" required>
+                </div>
+                <button type="submit" class="btn">Забронировать</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Как нас найти</h2>
+            <div class="contacts-grid">
+                <div class="contact-info">
+                    <h3>Адрес</h3>
+                    <p>г. Курск, ул. Восточная, 15</p>
+                    <h3>Часы работы</h3>
+                    <p>Пн-Чт: 12:00 - 23:00</p>
+                    <p>Пт-Сб: 12:00 - 01:00</p>
+                    <p>Вс: 12:00 - 22:00</p>
+                    <h3>Телефон</h3><p>+7 (4712) 12-34-56</p>
+                </div>
+                <div class="delivery-info">
+                    <h3>Доставка</h3>
+                    <p>Работаем с основными платформами доставки</p>
+                    <div class="delivery-btns">
+                        <button class="delivery-btn">Яндекс.Еда</button>
+                        <button class="delivery-btn">Delivery Club</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Чайхана "Шелковый Путь"</h3>
+                    <p>© 2023 Все права защищены</p>
+                </div>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">ВКонтакте</a>
+                    <a href="#">Telegram</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Публичная оферта</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
